@@ -33,6 +33,19 @@ This wrapper was generated via [mbed-js-wrapper-generator](https://github.com/ja
 
 See [ARMmbed/mbed-js-easy-connect](https://github.com/armmbed/mbed-js-easy-connect).
 
+## HTTPS
+
+This library does not support HTTPS right now. The underlying library (mbed-http) however *does*. I've left it out right now because:
+
+* HTTPS requires mbed TLS, which is relatively big, especially when combining it with JerryScript.
+* It cannot be linked out when not using it (as in C++).
+
+If you want HTTPS:
+
+* Change `#include http_request.h` into `#include https_request.h`.
+* Rename all `HttpRequest` instances to `HttpsRequest`.
+* Note that the constructor for the JS object changes, so you'll need to do a little work there (one extra parameter).
+
 ## Todo
 
 * `send()` is synchronous. Should not be synchronous.

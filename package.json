@@ -1,6 +1,6 @@
 {
     "name": "mbed-js-http",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "HTTP library for JS on mbed",
     "author": "Jan Jongboom <jan.jongboom@arm.com>",
     "homepage": "https://github.com/janjongboom/mbed-js-http#readme"
