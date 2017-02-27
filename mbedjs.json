@@ -1,0 +1,9 @@
+{
+    "source": [
+        "."
+    ],
+    "includes": [
+        "mbed-js-http/mbed-js-http-lib.h"
+	],
+    "name": "mbed_js_http"
+}
