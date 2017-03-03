@@ -11,14 +11,6 @@ This wrapper was generated via [mbed-js-wrapper-generator](https://github.com/ja
     ```
     $ npm install mbed-js-http --save
     ```
-    
-1. Install the native library:
-	
-    ```
-    $ cd node_modules/mbed-js-http
-    $ mbed add $(cat mbed-http.lib)
-    $ cd ../..
-    ```
 
 1. Clear your build directory:
 
